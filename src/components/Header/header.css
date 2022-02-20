@@ -1,0 +1,7 @@
+.Logo {
+  width: 40px;
+  height: 40px;
+}
+.Logo:hover {
+  cursor: pointer;
+}

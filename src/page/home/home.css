@@ -1,0 +1,23 @@
+.main_container {
+  margin: 30px 250px 100px 250px;
+}
+.Loader {
+  text-align: center;
+}
+.Id {
+  color: blue;
+}
+.Id:hover {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+  .main_container {
+    margin: 30px 0 100px 0;
+  }
+  .Status {
+    text-align: center;
+  }
+}

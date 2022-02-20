@@ -1,0 +1,82 @@
+label {
+  color: blue;
+}
+.HeadingCard {
+  margin: 0px 0 5px 0;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+.Main_Container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 100px 100px 100px;
+}
+.left {
+  width: 500px;
+}
+.right {
+  width: 900px;
+}
+.ImageCard {
+  padding: 10px;
+  width: 450px;
+  height: 100%;
+}
+.DetailsCard {
+  padding: 10px;
+  height: 570px;
+}
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.Card_content {
+  overflow: auto;
+}
+
+@media (max-width: 992px) {
+  .Main_Container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 100px 0;
+  }
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+  }
+  .header_items1 {
+    border-right: 1px solid black;
+    padding: 20px 70px;
+  }
+  .header_items2 {
+    padding: 20px 70px;
+  }
+  .ImageCard {
+    width: 100%;
+    align-items: center;
+  }
+}
+.Spinner {
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .HeadingCard,
+  .Header_header,
+  .left,
+  .right {
+    width: 430px;
+  }
+  .link {
+    display: none;
+  }
+  .HeadingCard {
+    padding: 10px;
+  }
+}
